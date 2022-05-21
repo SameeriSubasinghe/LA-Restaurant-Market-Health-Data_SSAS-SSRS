@@ -1,0 +1,388 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c7d5fb6f-ffd4-43e5-80a2-db9eb6c51ad5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Facility</ID>
+  <Name>Dim Facility</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1303" scrolltop="-665" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7408" y="13441" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimFacility" left="205" top="7242" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimFacility" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimOwner" left="20" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3836" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fc0e0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimOwner" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1539" top="4343" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__DimFacili__Owner__4BAC3F29]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1938" y="4842" />
+              <point x="1938" y="7242" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1303</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-665</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="afca253a-67cb-471e-a1ea-840d9ebf0771">
+    <DataSourceViewID>HV DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="bfef1be4-02c5-4932-87a6-7a199b1e4e18">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e5d062f2-3fe5-4b5d-8ecc-926f4023dfaa">
+      <ID>Facility SK</ID>
+      <Name>Facility SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="74239c2a-3d20-4dee-b1ac-037fd7966c2f">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b996a8d3-b781-45ae-ac3c-81027fd9b6af">
+            <TableID>dbo_DimFacility</TableID>
+            <ColumnID>FacilitySK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7f64a97a-4adc-4ef0-9415-255311481ac2">
+          <AttributeID>Owner SK</AttributeID>
+          <Name>Owner SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0bdee6ad-09a9-4d75-b92e-5334551457fe">
+          <AttributeID>Alternate Owner ID</AttributeID>
+          <Name>Alternate Owner ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4c3cf9e-1d7f-4413-816d-7d14cc221edc">
+          <AttributeID>Owner Name</AttributeID>
+          <Name>Owner Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="69c1e64c-1932-494b-934a-3ccec3930fa5">
+          <AttributeID>Owner Phone Number</AttributeID>
+          <Name>Owner Phone Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6de315b1-be2e-487d-9428-f3c778d0f0de">
+          <AttributeID>Owner Email</AttributeID>
+          <Name>Owner Email</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d4a6c81f-d4c1-4b61-b2b6-c36c10814e8d">
+          <AttributeID>Alternate Facility ID</AttributeID>
+          <Name>Alternate Facility ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b9d0873d-ff2b-4858-974f-5ff4ce35d477">
+          <AttributeID>Facility Name</AttributeID>
+          <Name>Facility Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f125cc9c-acc6-416d-81c8-6bae89df236b">
+          <AttributeID>Facility City</AttributeID>
+          <Name>Facility City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="246840a3-62dc-4bfc-9de9-b07558782da5">
+          <AttributeID>Facility Address</AttributeID>
+          <Name>Facility Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0c9c70a2-e213-48d2-9aa1-4c098889a02a">
+          <AttributeID>Owner Key</AttributeID>
+          <Name>Owner Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="12c54764-99cc-453f-bc4d-c834c82224e0">
+          <AttributeID>Start Date</AttributeID>
+          <Name>Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b068eb3c-6e48-4338-84f4-3cc922f94775">
+          <AttributeID>End Date</AttributeID>
+          <Name>End Date</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0bf034ac-0796-4f2b-b860-c2823b7b45f9">
+      <ID>Owner SK</ID>
+      <Name>Owner SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1d4c4e33-3e3c-4a34-993b-44dfb59c1aee">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee65d22c-d652-4eb2-8114-c5f322972614">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>OwnerSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="41eadd4b-cb42-4d6d-8524-045e243c50e0">
+      <ID>Alternate Owner ID</ID>
+      <Name>Alternate Owner ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f378ddd-6c99-496a-8ff5-687e624bc45f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d7e4f02-cd4c-46ab-b4b0-5e3209935890">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>AlternateOwnerID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a9ea7488-d9e8-4328-89c6-91de35e83f86">
+      <ID>Owner Name</ID>
+      <Name>Owner Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6609781f-a910-4725-b16c-5593f74d581e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba28d30d-e54a-4b96-8905-70654ea4f854">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>OwnerName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="52ef03ef-e520-4b1d-9496-dde14dca416e">
+      <ID>Owner Phone Number</ID>
+      <Name>Owner Phone Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="725ab594-5904-4f36-8dc5-38e6fbac554c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd91904b-79a4-4ee6-b215-c70ee697aeac">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>OwnerPhoneNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d10127c-510b-43d9-92d2-968d019a384c">
+      <ID>Owner Email</ID>
+      <Name>Owner Email</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a887a435-ccaa-4c9e-bb3b-c9ed3596493f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81cb2b39-872d-4fcc-a2e8-c4f1477032bf">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>OwnerEmail</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9d3ed33a-fb9b-4c04-84b4-c4149c346f08">
+      <ID>Alternate Facility ID</ID>
+      <Name>Alternate Facility ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="32d8c7f4-cdbc-4de1-81a2-dd15330a197c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5fab95d3-c756-4ab5-8b76-038bebf1d8c0">
+            <TableID>dbo_DimFacility</TableID>
+            <ColumnID>AlternateFacilityID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d396d0ed-b78a-4695-a6ff-89ecff3aa9b8">
+      <ID>Facility Name</ID>
+      <Name>Facility Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="79c24dbd-3393-4a5a-b64a-21c910604481">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56d40d41-58b9-4b13-b50e-3a5d1b67fd18">
+            <TableID>dbo_DimFacility</TableID>
+            <ColumnID>FacilityName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d005fd9f-f48a-42c5-9098-a653bfa12855">
+      <ID>Facility City</ID>
+      <Name>Facility City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4b29e7f3-21d2-4b5e-8ef4-4700211734d4">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df03ad63-28f4-42ba-9652-4b5d849dbb27">
+            <TableID>dbo_DimFacility</TableID>
+            <ColumnID>FacilityCity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78ad8c13-5dd1-4f94-9372-a06d35f1a57f">
+      <ID>Facility Address</ID>
+      <Name>Facility Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="597bd025-2cc9-45dd-a3b6-e65131d19b0d">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="245be714-1d0e-4a55-b5e9-e7f89f281038">
+            <TableID>dbo_DimFacility</TableID>
+            <ColumnID>FacilityAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b4aa7fa-68ab-4ced-83ac-3fbcfd4b699d">
+      <ID>Owner Key</ID>
+      <Name>Owner Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2ec38092-f4a0-482d-970d-808276e140df">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bfcea8db-9691-4829-854b-42e973af7046">
+            <TableID>dbo_DimFacility</TableID>
+            <ColumnID>OwnerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="32d5ff82-75e6-42d0-a4f4-c7c5611ea2c3">
+      <ID>Start Date</ID>
+      <Name>Start Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="67ffb852-b80d-46f8-b185-6dde8d0a0a0c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="43237b92-f2eb-4549-a59e-338e919a27c4">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>StartDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a49aa11-2176-49a8-82e6-f6fd203d79e3">
+      <ID>End Date</ID>
+      <Name>End Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62da2c3d-a775-48d1-84cb-6a83cf01480e">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c5081a2-a651-4b8b-b102-a7402735b2eb">
+            <TableID>dbo_DimOwner</TableID>
+            <ColumnID>EndDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f3fa7b8d-1110-4cfd-8b72-d8458523389b">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="41aa3a9c-5323-4d5d-b856-f6f736ddecf5">
+          <ID>Facility Name</ID>
+          <Name>Facility Name</Name>
+          <SourceAttributeID>Facility Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fbc6eb01-3418-45ce-9b07-19ad947807fd">
+          <ID>Facility Address</ID>
+          <Name>Facility Address</Name>
+          <SourceAttributeID>Facility Address</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
