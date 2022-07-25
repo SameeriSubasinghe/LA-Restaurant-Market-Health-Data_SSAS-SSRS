@@ -1,0 +1,2 @@
+# LA-Restaurant-Market-Health-Data_SSAS-SSRS
+This project is a part of the Data Warehousing and Business Intelligence module. The projects uses the data warehouse which is titiled as "LA-Restaurant-Market-Health-Data-SSIS" which contains the market health data of restaurants in Los Angeles. The project includes SSAS cube implementation, Demonstration of OLAP operations, and SSRS reports.  Technologies used: SSAS, SSRS, Excel Power View
